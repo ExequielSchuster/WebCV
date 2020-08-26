@@ -2578,11 +2578,11 @@ h6 {
         background: #fff;
         color: #222222; }
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 860px;
   margin: auto;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 60px; }
+  padding-top: 20px;
+  padding-bottom: 30px; }
   .tabs_inner .tab-content .tab-pane .list:before {
     content: "";
     height: 100%;
@@ -2881,11 +2881,13 @@ h6 {
   border: 1px solid #eeeeee;
   border-radius: 10px;
   background: #fff;
-  padding: 40px 28px; }
+  padding: 20px 0px;
+  max-width: 200px;
+  text-align: center; }
   .testi_item p {
     font-style: italic; }
   .testi_item h4 {
-    color: #222222;
+    color: #202020;
     font-size: 18px;
     text-transform: uppercase; }
   .testi_item a {
