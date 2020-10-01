@@ -81,18 +81,24 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 130px;
   max-height: 130px;
   border-radius: 30px;
-}
+  } 
 
 .logo_image {
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.3);
   max-width: 130px;
   max-height: 130px;
   margin-left: 18px;
   margin-bottom: 60px;
   border-radius: 30px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
   }
   .logo_image .g_item_text {
     text-align: center;
-    color: #222222; }
+    color: #222222;
+    transition: opacity 1s ease-in-out; }
     .logo_image .g_item_text h4 {
       color: #222222;
       font-size: 21px;
@@ -101,11 +107,13 @@ h1, h2, h3, h4, h5, h6 {
     .logo_image .g_item_text p {
       margin-bottom: 0px; }
   .logo_image:hover .g_img_item:before {
-    opacity: .85; }
+    opacity: 0.5; }
   .logo_image:hover .g_img_item .light {
-    opacity: 1; }
-  .logo_image:hover .g_item_text h4:hover {
-    color: #000; }
+    opacity: 0.5; }
+  .logo_image:hover {
+    color: #000;
+    opacity: 0.5; }
+
 
 button:focus {
   outline: none;
@@ -2717,11 +2725,17 @@ h6 {
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     transition: all 300ms linear 0s;
-    background: #fff; }
+    background: #fff;-webkit-transition: opacity 0.7s ease-in-out;
+    -moz-transition: opacity 0.7s ease-in-out;
+    -o-transition: opacity 0.7s ease-in-out;
+    transition: opacity 0.7s ease-in-out; }
   .proyect_inner i {
         margin-bottom: 15px;
         display: block; }
-    
+  .proyect_inner:hover {
+    opacity: 0.75;
+    transition: all 0.8s;
+  }
     
 .feature_item_courses {
   padding: 15px 35px;
